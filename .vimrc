@@ -1,5 +1,5 @@
 " COLOR
-colorscheme badwolf 	" awesome colorscheme, could also use jellybeans
+colorscheme jellybeans 	" awesome colorscheme, could also use 
 syntax enable 			" enable syntax processing
 
 " SPACES & TABS
