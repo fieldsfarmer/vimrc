@@ -23,8 +23,21 @@ set hlsearch            " highlight matches
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
 
-" Folding
-set foldenable          " enable folding
-set foldlevelstart=10   " open most folds by default
-set foldnestmax=10      " 10 nested fold max
+" MOVEMENT
+set mouse=nicr
+" set pastcally by visual line   nnoremap后面不能放"
+nnoremap j gj
+nnoremap k gk
+" move to beginning/end of line
+nnoremap f 0
+nnoremap g $
+" 0/$ doesn't do anything
+nnoremap 0 <nop>
+nnoremap $ <nop>
+" highlight last inserted text
+nnoremap gV `[v`]
 
+
+" PLUGINS
+set nocompatible              " be iMproved, required
+filetype off                  " required
